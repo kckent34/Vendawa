@@ -1,40 +1,28 @@
 #######################################
-# Syntax Coloring Map DispTower
+# Syntax Coloring Map Mux
 #######################################
 
 #######################################
 # Datatypes (KEYWORD1)
 #######################################
 
-DispTower 	KEYWORD1
+Mux 	KEYWORD1
 
 #######################################
 # Methods and Functions (KEYWORD2)
 #######################################
-dispense 	KEYWORD2
-medCount 	KEYWORD2
-enableTower 	KEYWORD2
-disableTower 	KEYWORD2
-testSensors 	KEYWORD2
-testMotors 		KEYWORD2
-printSensorAvg	KEYWORD2		
-
+init	KEYWORD2
+readMux 	KEYWORD2
+writeMux 	KEYWORD2
+stopWrite 	KEYWORD2
+setSpeed 	KEYWORD2
+prepareRead KEYWORD2
+prepareWrite KEYWORD2
 
 #######################################
 # Constants (LITERAL1)
 #######################################
-
-MOTB_EN_PIN		LITERAL1
-MOTF_EN_PIN 	LITERAL1
-SENSB_PIN		LITERAL1
-SENSF_PIN 		LITERAL1
-TOWER_EN0 		LITERAL1
-TOWER_EN1 		LITERAL1
-TOWER_EN2 		LITERAL1
-TOWER_EN3		LITERAL1
-TOWER_EN4		LITERAL1
-
-
-
-
+S0_PIN	 LITERAL1
+S1_PIN	 LITERAL1
+S2_PIN	 LITERAL1
 
